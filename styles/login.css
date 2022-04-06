@@ -1,0 +1,73 @@
+#header div:nth-child(2){
+    border-bottom: 2px solid orange;
+}
+
+  h2 {
+      text-align : center;
+  }
+#section1 > #login > label {
+       display : block;
+       margin-top : 20px;
+}
+
+#section1 {
+    background: #508183;
+    width : 60%;
+    margin : auto;
+    margin-top : 100px;
+    height : 400px;
+    border-radius : 10px;
+    padding-top : 30px;
+}
+
+#section1 > #login {
+      width : 40%;
+      margin : auto;
+      font-size : 20px;
+      font-family: sans-serif;
+}
+
+
+#section1 > #login > input{
+      width : 90%;
+      height : 30px;
+      font-size : 15px;
+      font-family : sans-serif;
+      border-radius : 10px;
+      margin: auto;
+      
+}
+
+#section1 #login >#submit{
+    background: grey;
+     font-size : 20px;
+     font-family : sans-serif;
+     cursor : pointer;
+    border: none;
+         width : 92%;
+           height : 35px;
+         margin-top : 30px;
+         margin-bottom : 30px;
+}
+
+@media all and (min-width : 451px) and (max-width : 850px){
+    #section1{
+        width : 90%;
+    }
+
+    #section1 > #login{
+        width : 80%;
+    }
+}
+
+@media all and (min-width : 60px) and (max-width : 451px){
+    #section1{
+        width : 100%;
+        margin-top : 20px;
+    }
+
+    #section1 > #login{
+        width : 80%;
+    
+    }
+}

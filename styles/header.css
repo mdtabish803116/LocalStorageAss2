@@ -1,0 +1,32 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+ #header{
+     display : flex;
+     justify-content : space-around;
+     align-items : center;
+     height : 50px;
+     background-color : teal;
+ }
+
+#header > div {
+      width : 100px;
+      align-items : center;
+    text-align : center;
+}
+ #header a {
+     text-decoration : none;
+     color : black;
+     font-weight : bold;
+     font-size : 20px;
+
+ }
+
+ #header > div:hover{
+     border-bottom : 2px solid red;
+ }
+
+ #header a {
+      cursor : pointer;
+ }
