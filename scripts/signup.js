@@ -49,3 +49,12 @@
       document.getElementById("password").value = "";
        }
   }
+
+  var cartCount = document.getElementById("countCart");
+
+   if(localStorage.getItem("cartItems") === null){
+       localStorage.setItem("cartItems" , JSON.stringify([]));
+       cartCount.textContent = "0";
+   }else {
+       cartCount.textContent = JSON.parse(localStorage.getItem("cartItems")).length;
+   }
