@@ -30,3 +30,20 @@ body {
  #header a {
       cursor : pointer;
  }
+
+ #header > div:last-child{
+     width : 120px;
+     display : flex;
+     position : relative;
+ }
+
+ #header #countCart{
+     position : absolute;
+     right : 0;
+     padding : 0px  10px;
+     text-align : center;
+     background: blue;
+     color : white;
+     font-size : bold;
+     border-radius : 50%;
+ }

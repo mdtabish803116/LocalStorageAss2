@@ -17,9 +17,18 @@ function loginFn(){
         }
     })
 
-    if(flag == true){
+    if(flag){
         alert("You have loged in succesfully !");
     }else {
         alert("invalid Credentials !");
     }
 }
+
+var cartCount = document.getElementById("countCart");
+
+   if(localStorage.getItem("cartItems") === null){
+       localStorage.setItem("cartItems" , JSON.stringify([]));
+       cartCount.textContent = "0";
+   }else {
+       cartCount.textContent = JSON.parse(localStorage.getItem("cartItems")).length;
+   }

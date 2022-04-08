@@ -1,0 +1,11 @@
+#OTPContainer{
+    width : 50%;
+    margin : auto;
+}
+
+
+
+#OTPContainer > #OTPButton , #OTPContainer #OTPNumber {
+    display : block;
+    margin-top : 20px;
+}
