@@ -17,7 +17,7 @@ function loginFn(){
         }
     })
 
-    if(flag == true){
+    if(flag){
         alert("You have loged in succesfully !");
     }else {
         alert("invalid Credentials !");

@@ -181,11 +181,12 @@ if(cartItems.length === 0){
     var applyBtn = document.createElement("button");
       applyBtn.textContent = "Apply";
 
-    var paymentBtn = document.createElement("button");
+    var paymentBtn = document.createElement("a");
        paymentBtn.textContent = "Proceed for Payment";
        paymentBtn.style.display = "block";
        paymentBtn.style.fontSize = "18px";
        paymentBtn.style.marginTop = "20px";
+       paymentBtn.setAttribute("href" , "payment.html")
 
 
             var flag = true;
